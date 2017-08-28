@@ -1,0 +1,17 @@
+<!--about.wxml-->
+<view class="line-top"></view>
+<view class="page">
+    <view class="content">
+        <view class="title">关于YHOLE</view>
+        <view class="p">
+          YHOLE 是一个基于知晓云搭建的小程序，现在属于个人练手项目，喜欢或或者对小程序感兴趣的小伙伴，可以查看本小程序的源码:
+        </view>
+        <view class="p">
+          https://github.com/zhuss/yhole
+        </view>
+
+        <view class="p">
+        也可以加群讨论前端相关技术 群：652830227
+        </view>
+    </view>
+</view>

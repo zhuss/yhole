@@ -1,0 +1,67 @@
+/* person.wxss */
+.header{
+  width: 100%;
+  height: 300rpx;
+  padding: 60rpx;
+  box-sizing: border-box;
+}
+
+.icon{
+  width: 100%;
+  height: 144rpx;
+  text-align: center;
+}
+
+.icon image{
+  width: 144rpx;
+  height:144rpx;
+}
+
+.name{
+  width: 100%;
+  height: 60rpx;
+  line-height: 60rpx;
+  text-align: center;
+}
+.cell-group{
+  margin-top: 20rpx;
+  border-top:1rpx solid #CCC;
+}
+.cell{
+  width: 100%;
+  height: 100rpx;
+  border-bottom:1rpx solid #CCC;
+  line-height: 100rpx;
+  display: flex;
+}
+.cell-icon{
+  width: 100rpx;
+  height: 100rpx;
+  padding: 20rpx;
+  box-sizing: border-box;
+}
+
+.cell-icon image{
+  display: block;
+  width: 60rpx;
+  height: 60rpx;
+}
+.cell-text{
+  flex: 1;
+  height: 100rpx;
+  line-height: 100rpx;
+  font-size: 32rpx;
+  color: #333;
+}
+.cell-ricon{
+  width: 100rpx;
+  height: 100rpx;
+  padding: 30rpx;
+  box-sizing: border-box;
+}
+
+.cell-ricon image{
+  display: block;
+  width: 40rpx;
+  height: 40rpx;
+}

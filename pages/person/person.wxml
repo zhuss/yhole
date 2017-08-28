@@ -1,0 +1,31 @@
+<!--person.wxml-->
+<view class="line-top"></view>
+<view class="page">
+  <view class="header">
+      <view class="icon">
+          <image src="{{userInfo.avatarUrl}}"></image>
+      </view>
+      <view class="name">{{userInfo.nickName}}</view>
+  </view>
+  <view class="cell-group">
+    <view class="cell" bindtap="aboutCellClick">
+      <view class="cell-icon">
+        <image src="./../../image/about.png"></image>
+      </view>
+      <view class="cell-text">关于YHOLE</view>
+      <view class="cell-ricon">
+        <image src="./../../image/right.png"></image>
+      </view>
+    </view>
+
+    <!-- <view class="cell">
+      <view class="cell-icon">
+        <image src="./../../image/my.png"></image>
+      </view>
+      <view class="cell-text">我的YHOLE</view>
+      <view class="cell-ricon">
+        <image src="./../../image/right.png"></image>
+      </view>
+    </view> -->
+  </view>
+</view>

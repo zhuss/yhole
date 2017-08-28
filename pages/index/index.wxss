@@ -1,0 +1,23 @@
+.page{
+  padding: 40rpx;
+}
+.card{
+  padding: 20rpx;
+  background: #EEE;
+  margin-bottom: 40rpx;
+}
+.card-user{
+  color: #CCC;
+  font-size: 40rpx;
+  margin-bottom: 20rpx;
+}
+.card-content{
+  color: #333;
+  font-size: 32rpx;
+  line-height: 50rpx;
+}
+.card-time{
+  font-size: 28rpx;
+  color: #999;
+  text-align: right;
+}

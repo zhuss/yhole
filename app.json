@@ -1,0 +1,38 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/person/person",
+    "pages/edit/edit",
+    "pages/about/about"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#EEE",
+    "navigationBarTitleText": "YHOLE",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#8a8a8a",
+    "selectedColor": "#333333",
+    "list": [
+      {
+        "pagePath": "pages/edit/edit",
+        "text": "写写",
+        "iconPath": "./image/mess.png",
+        "selectedIconPath": "./image/mess-a.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "广场",
+        "iconPath": "./image/home.png",
+        "selectedIconPath": "./image/home-a.png"
+      },
+      {
+        "pagePath": "pages/person/person",
+        "text": "我的",
+        "iconPath": "./image/person.png",
+        "selectedIconPath": "./image/person-a.png"
+      }
+    ]
+  }
+}

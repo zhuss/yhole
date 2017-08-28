@@ -1,0 +1,6 @@
+<!--edit.wxml-->
+<view class="line-top"></view>
+<view class="page">
+  <textarea bindinput="bindKeyInput" value="{{text}}"  class="input" />
+  <view wx:if="{{text!=''}}" class="button" bindtap="editBtnClick">写好了</view>
+</view>

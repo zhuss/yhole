@@ -1,0 +1,21 @@
+/* about.wxss */
+.page{
+  padding: 40rpx;
+}
+.content{
+  color: #333;
+}
+
+.title{
+  font-size: 40rpx;
+  line-height: 80rpx;
+  border-bottom: 1rpx solid #EEE;
+  color: #000;
+}
+
+.content .p{
+  padding-top:40rpx;
+  font-size: 28rpx;
+  color: #333; 
+  line-height: 40rpx;
+}
